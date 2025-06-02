@@ -1,0 +1,19 @@
+ 
+.header__list {
+ @include flex;  
+ 
+}
+
+.header__item {
+    list-style-type: none;
+}
+.header__link {
+    text-decoration: none;
+    font-family: $primary-fonts;
+    font-weight: 400;
+    list-style-type: none;
+    color: $color-title;
+    text-transform: uppercase;
+    line-height: rem(18);
+    letter-spacing: 0.3;
+}
