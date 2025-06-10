@@ -3,8 +3,15 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src:
-    url("../../fonts/noto-sans-regular.woff2") format("woff2")
+  src: url("../../fonts/noto-sans-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("../../fonts/noto-sans-italic.woff2") format("woff2");
 }
 
 @font-face {
@@ -12,7 +19,6 @@
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src:
-    url("../../fonts/noto-sans-semi-bold.woff2") format("woff2")
+  src: url("../../fonts/noto-sans-semiBold.woff2") format("woff2");
 }
 

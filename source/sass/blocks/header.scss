@@ -24,10 +24,11 @@
   font-family: $primary-fonts;
   font-weight: 600;
   list-style-type: none;
+  font-size: rem(14);
   color: $color-title;
   text-transform: uppercase;
   line-height: rem(18);
-  letter-spacing: rem(1.1);
+  letter-spacing: rem(0.5);
 
   &:hover,
   &:focus-visible {
@@ -40,7 +41,7 @@
 }
 
 .header__person-wrapper {
-  padding-left: rem(38);
+  padding-left: rem(36);
 }
 
 .header__person-link {
